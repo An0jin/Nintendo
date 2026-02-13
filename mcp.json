@@ -1,0 +1,19 @@
+{
+    "mcpServers": {
+        "word-document-server": {
+            "command": "uvx",
+            "args": [
+                "--from",
+                "office-word-mcp-server",
+                "word_mcp_server"
+            ]
+        },
+        "imageReader": {
+            "command": "npx",
+            "args": [
+                "image-reader-mcp"
+            ],
+            "env": {}
+        }
+    }
+}
